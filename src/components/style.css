@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+.main {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+    border: 1px solid black;
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: azure;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    margin: 1rem;
+}
+
+.sub_btn {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.home {
+    text-align: center;
+}
+
+.signout {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
